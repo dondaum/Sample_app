@@ -5,5 +5,4 @@ class SessionsControllerTest < ActionController::TestCase
     get login_path
     assert_response :success
   end
-
 end
